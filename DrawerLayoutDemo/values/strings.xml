@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DrawerLayoutDemo</string>
+    <string name="text_Home">Home</string>
+    <string name="text_News">News</string>
+    <string name="text_Map">Map</string>
+    <string name="text_Settings">Settings</string>
+    <string name="text_UserName">Bruce Lee</string>
+    <string name="text_Email">bruceLee@gmail.com</string>
+    <string name="text_Open">Open</string>
+    <string name="text_Close">Close</string>
+</resources>
