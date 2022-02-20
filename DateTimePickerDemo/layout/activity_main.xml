@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:layout_margin="15dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_tvDateTime"
+        android:id="@+id/tvDateTime"
+        android:layout_marginTop="10dp"
+        android:background="#ffff00"
+        android:textSize="24sp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btDatePicker"
+        android:layout_alignStart="@id/tvDateTime"
+        android:layout_below="@id/tvDateTime"
+        android:onClick="onDateClick"
+        android:text="@string/text_btDatePicker"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btTime"
+        android:layout_alignBaseline="@id/btDatePicker"
+        android:layout_alignBottom="@id/btDatePicker"
+        android:layout_toEndOf="@id/btDatePicker"
+        android:onClick="onTimeClick"
+        android:text="@string/text_btTimePicker"/>
+
+</RelativeLayout>
